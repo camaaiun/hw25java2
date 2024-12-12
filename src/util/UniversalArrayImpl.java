@@ -5,10 +5,6 @@ import java.util.Arrays;
 public class UniversalArrayImpl<T> implements UniversalArray<T> {
     private Object[] array;
 
-    public UniversalArrayImpl(T[] a) {
-        array = a;
-    }
-
     public UniversalArrayImpl() {
         this.array = new Object[]{};
     }
